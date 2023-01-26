@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.window {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tabel {
+    position: absolute;
+    top: 20px;
+    max-width: 90vw;
+    min-width: 80%;
+    display: flex;
+}
+
+.tabelBase {
+    min-width: 10%;
+    border: 2px solid black;
+}
+
+.colon {
+    min-height: 30px;
+    min-height: 30px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(73, 73, 73);
+}
+
+.colon:hover {
+    cursor: pointer;
+    background-color: rgba(3, 3, 3, 0.212);
+}
+
+.el {
+    padding: 3px;
+    white-space: nowrap;
+}
+
+.elLabel {
+    cursor: grab;
+    min-width: 30px;
+    max-width: auto;
+    background-color: rgba(0, 0, 0, 0.527);
+    height: 30px;
+    border: 1px solid rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+
+.elColon {
+    min-width: 30px;
+    border-color: white;
+    height: 30px;
+    border: 1px solid rgb(73, 73, 73);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
